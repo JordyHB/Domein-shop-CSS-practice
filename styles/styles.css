@@ -59,12 +59,11 @@ h2 {
 ////////////////////////*/
 
 header {
-    position: relative;
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 900px;
+    height: 800px;
     width: 100%;
 
 }
@@ -88,8 +87,7 @@ footer {
 
 /*///////////// 3.1 Header /////////////*/
 
-.head-banner {;
-    position: absolute;
+.head-banner {
     padding: 100px 0 650px 0;
     left: 0;
     top: 0;
@@ -128,13 +126,14 @@ footer {
     border-radius: 12px;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
     width: 100%;
-    padding: 50px;
+    padding: 45px;
     margin-bottom: 72px;
     text-align: left;
 }
 
 .user-experience{
     padding-left: 36px;
+    margin-bottom: 12px;
 }
 
 .quote-icon {
@@ -147,14 +146,13 @@ footer {
     width: 44px;
     border-radius: 50%;
     margin: 8px;
-    vertical-align: bottom;
+    vertical-align: middle;
 
 }
 
 .quoted-user {
     font-style: italic;
     font-weight: 300;
-    vertical-align: bottom;
 }
 
 /*///////////// 3.3 Support /////////////*/
